@@ -77,7 +77,7 @@ const SearchResult = () => {
             </>
           ) : (
             <span className="resultNotFound">
-              Sorry, we didnt find any results on your search!
+              Sorry, There are no movies that matched your query.
               <img
                 className="resultNotFound-img"
                 src={noResults}
