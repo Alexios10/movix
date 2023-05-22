@@ -1,27 +1,29 @@
-# Movix - Your Ultimate Source for Entertainment Updates
+# Movix
 
-Movix is a sleek and user-friendly website designed to provide you with the latest news, releases, about movies, TV shows, and more. With its stunning UI and seamless UX, MovieHub offers a comprehensive and immersive experience for all entertainment enthusiasts.
+Movix is a web application built using JavaScript, React.js, Redux, SCSS, and the TMDB API. It provides users with the latest information about movies, including details, ratings, and trailers.
 
-## Key Features
+## Features
 
-- Stay Updated: Get instant access to the most up-to-date information about the latest movies, TV shows, and more.
-- Personalized Recommendations: Based on your preferences and viewing history, Movix suggests tailored recommendations to help you discover new favorites.
-- Interactive Interface: Enjoy a visually appealing and intuitive user interface that enhances your browsing experience.
+- **Movie Information**: Users can search for movies and view details such as plot summaries, release dates, and ratings.
+- **Movie Trailers**: The app fetches movie trailers from the TMDB API and displays them for users to watch.
+- **Responsive Design**: Movix is designed to provide a seamless experience across devices and screen sizes.
+
+## Technologies Used
+
+- JavaScript
+- React.js
+- Redux
+- SCSS
+- TMDB API
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/Alexios10/movix.git`
+To set up and run the Movix app locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/Movix.git`
 2. Install the required dependencies: `npm install`
-3. Launch the application: `npm start`
-4. Access Movix in your browser: `http://localhost:3000`
+3. Obtain an API key from the TMDB website: [TMDB API](https://www.themoviedb.org/documentation/api)
+4. Set up your environment variables: Create a `.env` file and add your TMDB API key.
+5. Start the development server: `npm start`
+6. Access the app in your browser: `http://localhost:3000`
 
-## Contributing
-
-We welcome contributions from everyone! If you encounter any issues, have feature suggestions, or would like to contribute to the project we will be happy to accept.
-
-## Feedback and Support
-
-Feel free to customize the README further according to your specific project details and structure.
-
-
-demo: https://movix-self-nine.vercel.app/
