@@ -1,6 +1,6 @@
 # Movix
 
-Movix is a web application built using JavaScript, React.js, Redux, SCSS, and the TMDB API. It provides users with the latest information about movies, including details, ratings, and trailers.
+Movix is a web application built using React.js, Redux, SCSS, and the TMDB API. It provides users with the latest information about movies, including details, ratings, and trailers.
 
 ## Features
 
@@ -10,7 +10,6 @@ Movix is a web application built using JavaScript, React.js, Redux, SCSS, and th
 
 ## Technologies Used
 
-- JavaScript
 - React.js
 - Redux
 - SCSS
