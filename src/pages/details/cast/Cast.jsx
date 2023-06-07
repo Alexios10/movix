@@ -22,10 +22,10 @@ const Cast = ({ data, loading }) => {
   };
   return (
     <div className="castSection">
-      <ContentWrapper>
-        <div className="sectionHeading">Top Cast</div>
-        {!loading ? (
-          <Scrollbar style={{ width: 1200, height: 360 }}>
+      <Scrollbar style={{ width: 1200, height: 420 }}>
+        <ContentWrapper>
+          <div className="sectionHeading">Top Cast</div>
+          {!loading ? (
             <div className="listItems">
               {data?.map((item) => {
                 let imgUrl = item.profile_path
@@ -42,18 +42,18 @@ const Cast = ({ data, loading }) => {
                 );
               })}
             </div>
-          </Scrollbar>
-        ) : (
-          <div className="castSkeleton">
-            {skeleton()}
-            {skeleton()}
-            {skeleton()}
-            {skeleton()}
-            {skeleton()}
-            {skeleton()}
-          </div>
-        )}
-      </ContentWrapper>
+          ) : (
+            <div className="castSkeleton">
+              {skeleton()}
+              {skeleton()}
+              {skeleton()}
+              {skeleton()}
+              {skeleton()}
+              {skeleton()}
+            </div>
+          )}
+        </ContentWrapper>
+      </Scrollbar>
     </div>
   );
 };
