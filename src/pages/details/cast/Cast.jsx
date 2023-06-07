@@ -22,9 +22,9 @@ const Cast = ({ data, loading }) => {
   };
   return (
     <div className="castSection">
-      <Scrollbar style={{ width: 1200, height: 420 }}>
-        <ContentWrapper>
-          <div className="sectionHeading">Top Cast</div>
+      <ContentWrapper>
+        <div className="sectionHeading">Top Cast</div>
+        <Scrollbar style={{ width: 1200, height: 390 }}>
           {!loading ? (
             <div className="listItems">
               {data?.map((item) => {
@@ -52,8 +52,8 @@ const Cast = ({ data, loading }) => {
               {skeleton()}
             </div>
           )}
-        </ContentWrapper>
-      </Scrollbar>
+        </Scrollbar>
+      </ContentWrapper>
     </div>
   );
 };
