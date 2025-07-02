@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import "./style.scss";
@@ -29,6 +29,10 @@ const HeroBanner = () => {
   };
 
   const searchHandler = () => {
+    if (query.length === 0) {
+      return;
+    }
+
     if (query.length === 0) {
       navigate(`/PageNotFound/`);
     } else {
