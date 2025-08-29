@@ -5,17 +5,17 @@ Brukere får tilgang til detaljert informasjon, se trailere og oppdage nytt innh
 
 Funksjoner
 
-Utforske de nyeste filmer og tv-serier
+• Utforske de nyeste filmer og tv-serier
 
-Se trailere direkte i appen
+• Se trailere direkte i appen
 
-Detaljert info hentet fra The Movie Database (TMDB)
+• Detaljert info hentet fra The Movie Database (TMDB)
 
 Teknologi
 
-Frontend: React, Redux, SCSS
+• Frontend: React, Redux, SCSS
 
-API: TMDB API
+• API: TMDB API
 
 Prosjektet ga meg en god mulighet til å jobbe med tilstandsstyring i Redux og samtidig bygge en responsiv og brukervennlig applikasjon.
 
